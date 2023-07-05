@@ -1,2 +1,2 @@
-# Proyecto Integrador - Mobile Kotlin
+# Proyecto Integrador - Mobile App Kotlin
 GRUPO 6A
