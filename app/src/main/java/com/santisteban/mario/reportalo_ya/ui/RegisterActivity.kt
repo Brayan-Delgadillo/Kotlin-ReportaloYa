@@ -1,8 +1,10 @@
-package com.santisteban.mario.reportalo_ya
+package com.santisteban.mario.reportalo_ya.ui
 
 import android.content.Intent
 import android.os.Bundle
+import com.santisteban.mario.reportalo_ya.User
 import com.santisteban.mario.reportalo_ya.databinding.ActivityRegisterBinding
+import com.santisteban.mario.reportalo_ya.util.SharedPreferenceUtil
 
 class RegisterActivity : BaseActivity<ActivityRegisterBinding>(ActivityRegisterBinding::inflate) {
 

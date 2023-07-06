@@ -1,9 +1,11 @@
-package com.santisteban.mario.reportalo_ya
+package com.santisteban.mario.reportalo_ya.ui
 
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Toast
+import com.santisteban.mario.reportalo_ya.User
 import com.santisteban.mario.reportalo_ya.databinding.ActivityLoginBinding
+import com.santisteban.mario.reportalo_ya.util.SharedPreferenceUtil
 
 class LoginActivity : BaseActivity<ActivityLoginBinding>(ActivityLoginBinding::inflate) {
 

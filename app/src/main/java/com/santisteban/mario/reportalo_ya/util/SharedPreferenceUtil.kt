@@ -1,8 +1,9 @@
-package com.santisteban.mario.reportalo_ya
+package com.santisteban.mario.reportalo_ya.util
 
 import android.content.Context
 import android.content.SharedPreferences
 import com.google.gson.Gson
+import com.santisteban.mario.reportalo_ya.User
 
 class SharedPreferenceUtil {
 

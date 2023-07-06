@@ -1,4 +1,4 @@
-package com.santisteban.mario.reportalo_ya
+package com.santisteban.mario.reportalo_ya.ui
 
 import android.os.Bundle
 import android.view.LayoutInflater

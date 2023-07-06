@@ -4,17 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SplashActivity"
+    tools:context=".ui.SplashActivity"
     android:background="@color/black">
 
     <ImageView
-        android:layout_width="215dp"
-        android:layout_height="215dp"
+        android:layout_width="315dp"
+        android:layout_height="240dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/app_logo" />
+        app:srcCompat="@drawable/foro_logo" />
 
     <ImageView
         android:layout_width="600dp"
