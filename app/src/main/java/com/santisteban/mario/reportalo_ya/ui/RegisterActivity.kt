@@ -33,7 +33,7 @@ class RegisterActivity : BaseActivity<ActivityRegisterBinding>(ActivityRegisterB
 
         }
         binding.btnGoLogin.setOnClickListener {
-            
+            startActivity(Intent(this, LoginActivity::class.java))
         }
     }
 }
