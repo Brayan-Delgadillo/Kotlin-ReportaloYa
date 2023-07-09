@@ -1,4 +1,4 @@
-package com.santisteban.mario.reportalo_ya.ui
+package com.santisteban.mario.reportalo_ya.ui.view
 
 import android.content.Intent
 import android.os.Bundle
