@@ -4,4 +4,16 @@
     <string name="close_nav">Close Navigation Drawer</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="description">
+Somos un equipo comprometido en brindar un entorno seguro y libre de acoso para todos los alumnos. Nuestra misión es prevenir y abordar casos de bullying, acoso y cualquier forma de violencia escolar.
+    </string>
+
+    <string name="description1">
+Trabajamos en estrecha colaboración con padres y personal educativo para identificar y tomar medidas contra los comportamientos inapropiados y garantizar un ambiente de aprendizaje positivo y respetuoso para todos.
+    </string>
+
+    <string name="description2">
+Juntos, podemos construir una comunidad escolar segura, inclusiva y libre de acoso. Estamos aquí para escuchar, apoyar y promover el bienestar de todos los alumnos.
+    </string>
+
 </resources>

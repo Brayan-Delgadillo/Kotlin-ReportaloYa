@@ -8,6 +8,7 @@ import com.santisteban.mario.reportalo_ya.User
 class SharedPreferenceUtil {
 
     companion object{
+
         private const val SHARED_PREFERENCE_KEY = "SHARED_PREFERENCE_KEY"
 
         private lateinit var sharedPreference: SharedPreferences
@@ -43,4 +44,5 @@ class SharedPreferenceUtil {
 
         return user
     }
+
 }

@@ -15,16 +15,18 @@
         android:src="@drawable/user" />
 
     <TextView
+        android:id="@+id/nav_header_username"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Mario Santisteban"
+        android:text="Username"
         android:textColor="@color/white"
         android:textStyle="bold"/>
 
     <TextView
+        android:id="@+id/nav_header_email"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="ejemplo@tecsup.edu.pe"
+        android:text="Email"
         android:textColor="@color/white"
         android:textSize="14sp"
         android:layout_marginBottom="16dp"/>

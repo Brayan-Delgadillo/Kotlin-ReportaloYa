@@ -1,18 +1,68 @@
-<?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/lavender"
     tools:context="ui.view.AboutFragment">
 
-    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:id="@+id/logo_imageview"
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:src="@drawable/foro_logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"/>
+
     <TextView
+        android:id="@+id/title_textview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="About Us Fragment"
-        android:textSize="30sp"
-        android:layout_centerInParent="true"
-        android:textColor="@color/lavender"/>
+        android:text="Quiénes Somos"
+        android:textSize="27sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/logo_imageview"
+        android:textColor="@color/white"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/first_paragraph_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/description"
+        android:textSize="17sp"
+        android:textColor="@color/white"
+        android:layout_below="@id/title_textview"
+        android:layout_marginTop="32dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/second_paragraph_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/description1"
+        android:textSize="17sp"
+        android:textColor="@color/white"
+        android:layout_below="@id/first_paragraph_textview"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/third_paragraph_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/description2"
+        android:textSize="17sp"
+        android:textColor="@color/white"
+        android:layout_below="@id/second_paragraph_textview"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:gravity="center"/>
 
 </RelativeLayout>
