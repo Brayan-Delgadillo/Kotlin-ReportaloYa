@@ -3,10 +3,6 @@ S
 #.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
 ]
 -.idea/sonarlint/securityhotspotstore/index.pb,8\8\88a9255124c95bdc913197c120a8d560edc59c8e
-}
-Mapp/src/main/java/com/santisteban/mario/reportalo_ya/ui/view/AboutFragment.kt,0\d\0d05aaecdaa86c9989e440bba051e0cb54755a31
-P
- app/src/main/AndroidManifest.xml,8\c\8c55c3ccc257e5907959013f99656e4c8ec3903e
 |
 Lapp/src/main/java/com/santisteban/mario/reportalo_ya/ui/view/BaseActivity.kt,0\1\01bf01fd69b56101ff89d62a350ac32e6d60691d
 

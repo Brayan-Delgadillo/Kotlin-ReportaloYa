@@ -1,16 +1,69 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.view.ReportsFragment">
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Agrega una tarjeta (CardView) para mostrar cada reporte -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Reports Fragment"
-        android:textSize="30sp"
-        android:layout_centerInParent="true"
-        android:textColor="@color/lavender"/>
-</RelativeLayout>
+        android:layout_marginBottom="16dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="4dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- Agrega una ImageView para la foto de perfil (circular) -->
+            <ImageView
+                android:id="@+id/profileImageView"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:src="@drawable/user"
+                android:scaleType="centerCrop" />
+
+            <!-- Agrega un TextView para mostrar el nombre -->
+            <TextView
+                android:id="@+id/nameTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nombre del alumno"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_marginTop="16dp" />
+
+            <!-- Agrega un TextView para mostrar la fecha de envío -->
+            <TextView
+                android:id="@+id/dateTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fecha de envío"
+                android:textSize="12sp"
+                android:layout_marginTop="4dp" />
+
+            <!-- Agrega un TextView para mostrar el reporte -->
+            <TextView
+                android:id="@+id/reportTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Reporte del alumno"
+                android:textSize="16sp"
+                android:layout_marginTop="16dp" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <!-- Agrega más tarjetas si hay más reportes -->
+
+</LinearLayout>
+
+
+

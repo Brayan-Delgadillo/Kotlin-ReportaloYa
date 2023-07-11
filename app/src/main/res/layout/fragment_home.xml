@@ -1,16 +1,112 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="ui.view.HomeFragment">
-    <!-- TODO: Update blank fragment layout -->
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:id="@+id/logo_imageview"
+            android:layout_width="250dp"
+            android:layout_height="150dp"
+            android:src="@drawable/foro_logo"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp" />
+
+    </RelativeLayout>
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Home Fragment"
-        android:textSize="30sp"
-        android:layout_centerInParent="true"
-        android:textColor="@color/lavender"/>
-</RelativeLayout>
+        android:text="Colegio:"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/spnColegio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_spinner"
+        android:padding="8dp"
+        android:textColor="@color/black"
+        android:textColorHighlight="@color/cardview_dark_background"
+        android:spinnerMode="dropdown"
+        android:entries="@array/colegio_options"
+        android:prompt="@string/colegio_prompt" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Grado:"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp" />
+
+    <Spinner
+        android:id="@+id/spnGrado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_spinner"
+        android:padding="8dp"
+        android:textColor="@color/black"
+        android:textColorHighlight="@color/cardview_dark_background"
+        android:spinnerMode="dropdown"
+        android:entries="@array/grado_options"
+        android:prompt="@string/grado_prompt" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sección:"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp" />
+
+    <Spinner
+        android:id="@+id/spnSeccion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_spinner"
+        android:padding="8dp"
+        android:textColor="@color/black"
+        android:textColorHighlight="@color/cardview_dark_background"
+        android:spinnerMode="dropdown"
+        android:entries="@array/seccion_options"
+        android:prompt="@string/seccion_prompt" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reporta tu Caso :"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/edtDescripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_edittext"
+        android:padding="8dp"
+        android:hint="Cuéntanos"
+        android:textColor="@color/black"
+        android:textColorHighlight="@color/cardview_dark_background"
+        android:inputType="textMultiLine"
+        android:minLines="3"
+        android:gravity="top" />
+
+    <Button
+        android:id="@+id/btnEnviar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enviar"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>

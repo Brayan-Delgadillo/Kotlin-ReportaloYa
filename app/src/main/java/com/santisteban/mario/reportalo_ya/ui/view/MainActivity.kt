@@ -49,14 +49,12 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
 
         // Obtén las referencias a los TextView del header
         val usernameTextView = headerView.findViewById<TextView>(R.id.nav_header_username)
-        val emailTextView = headerView.findViewById<TextView>(R.id.nav_header_email)
 
         // Obtén los datos del usuario desde SharedPreferences
         val user: User? = sharedPreferenceUtil.getUser()
 
         // Establece los valores de usuario en los TextView del header
         usernameTextView.text = user?.name
-        emailTextView.text = user?.email
     }
     override fun onNavigationItemSelected(item: MenuItem): Boolean {
         when (item.itemId) {

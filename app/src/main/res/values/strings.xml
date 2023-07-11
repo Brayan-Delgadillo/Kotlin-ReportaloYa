@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Reportalo_Ya</string>
+    <string name="app_name">ReportaloYa!</string>
     <string name="open_nav">Open Navigation Drawer</string>
     <string name="close_nav">Close Navigation Drawer</string>
     <!-- TODO: Remove or change this placeholder text -->
@@ -16,4 +16,27 @@ Trabajamos en estrecha colaboración con padres y personal educativo para identi
 Juntos, podemos construir una comunidad escolar segura, inclusiva y libre de acoso. Estamos aquí para escuchar, apoyar y promover el bienestar de todos los alumnos.
     </string>
 
+    <string name="colegio_prompt">Selecciona tu Escuela</string>
+    <string-array name="colegio_options">
+        <item>Colegio 1</item>
+        <item>Colegio 2</item>
+        <item>Colegio 3</item>
+        <!-- Agrega más elementos si es necesario -->
+    </string-array>
+
+    <string name="grado_prompt">Selecciona tu Grado</string>
+    <string-array name="grado_options">
+        <item>Grado 1</item>
+        <item>Grado 2</item>
+        <item>Grado 3</item>
+        <!-- Agrega más elementos si es necesario -->
+    </string-array>
+
+    <string name="seccion_prompt">Selecciona tu Sección</string>
+    <string-array name="seccion_options">
+        <item>Sección A</item>
+        <item>Sección B</item>
+        <item>Sección C</item>
+        <!-- Agrega más elementos si es necesario -->
+    </string-array>
 </resources>
