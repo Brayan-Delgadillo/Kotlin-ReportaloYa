@@ -45,4 +45,12 @@ class SharedPreferenceUtil {
         return user
     }
 
+    fun clearUser() {
+        sharedPreference
+            .edit()
+            .remove(USER)
+            .apply()
+    }
+
+
 }
