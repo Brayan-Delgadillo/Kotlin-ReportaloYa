@@ -3,9 +3,23 @@ S
 #.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
 ]
 -.idea/sonarlint/securityhotspotstore/index.pb,8\8\88a9255124c95bdc913197c120a8d560edc59c8e
-|
-Lapp/src/main/java/com/santisteban/mario/reportalo_ya/ui/view/BaseActivity.kt,0\1\01bf01fd69b56101ff89d62a350ac32e6d60691d
-
-Oapp/src/main/java/com/santisteban/mario/reportalo_ya/ui/view/ReportsFragment.kt,1\d\1daea50014026f552496bfe0f2f0b9a4dcdf98d2
+l
+<app/src/main/java/com/santisteban/mario/reportalo_ya/User.kt,a\b\ab9c08c6cefb2e90087aaa3ce45de9ebcc29327c
+
+Qapp/src/main/java/com/santisteban/mario/reportalo_ya/util/SharedPreferenceUtil.kt,c\3\c377d98f3f527e6d8d322d9ca5572ee935bab0b7
+P
+ app/src/main/AndroidManifest.xml,8\c\8c55c3ccc257e5907959013f99656e4c8ec3903e
 }
 Mapp/src/main/java/com/santisteban/mario/reportalo_ya/ui/view/ShareFragment.kt,e\0\e030652eb9c6e953b1df4d4d07a0f7f93381b97e
+~
+Napp/src/main/java/com/santisteban/mario/reportalo_ya/ui/view/SplashActivity.kt,b\b\bbd8022cb0aba1f0f627e7fe5a1aff46cadedc2f
+}
+Mapp/src/main/java/com/santisteban/mario/reportalo_ya/ui/view/AboutFragment.kt,0\d\0d05aaecdaa86c9989e440bba051e0cb54755a31
+€
+Papp/src/main/java/com/santisteban/mario/reportalo_ya/ui/view/RegisterActivity.kt,2\c\2c199e303ad523215eff858be4253b3b5a4dfc7f
+|
+Lapp/src/main/java/com/santisteban/mario/reportalo_ya/ui/view/UserFragment.kt,a\f\afa88fd0c2ada5404632fa13ec39a13c110a6a30
+|
+Lapp/src/main/java/com/santisteban/mario/reportalo_ya/ui/view/MainActivity.kt,a\0\a02a75dbddd7da71ea6fd881f9226e481fa17e1a
+|
+Lapp/src/main/java/com/santisteban/mario/reportalo_ya/ui/view/BaseActivity.kt,0\1\01bf01fd69b56101ff89d62a350ac32e6d60691d
